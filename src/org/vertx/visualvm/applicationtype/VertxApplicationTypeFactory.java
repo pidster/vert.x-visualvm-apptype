@@ -17,6 +17,9 @@ public class VertxApplicationTypeFactory extends MainClassApplicationTypeFactory
         if ("org.vertx.java.deploy.impl.VertxBoot".equals(mainClass)) {
             return new VertxApplicationType(app.getPid());
         }
+        else if ("org.vertx.java.deploy.impl.cli.VertxMgr".equals(mainClass)) {
+            return new VertxApplicationType(app.getPid());
+        }
         else if ("vert.x-boot.jar".equals(mainClass)) {
             return new VertxApplicationType(app.getPid());
         }
