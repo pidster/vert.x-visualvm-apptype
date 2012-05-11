@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-OpenIDE-Module: org.vertx.visualvm.applicationtype
+OpenIDE-Module: org.vertx.visualvm.applicationtype/1
+OpenIDE-Module-Implementation-Version: 1
 OpenIDE-Module-Install: org/vertx/visualvm/applicationtype/Installer.class
 OpenIDE-Module-Layer: org/vertx/visualvm/applicationtype/layer.xml
 OpenIDE-Module-Localizing-Bundle: org/vertx/visualvm/applicationtype/Bundle.properties
-OpenIDE-Module-Specification-Version: 1.0
 
