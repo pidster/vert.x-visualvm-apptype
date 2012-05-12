@@ -45,6 +45,6 @@ public class VertxApplicationType extends ApplicationType {
 
     @Override
     public Image getIcon() {
-        return ImageUtilities.loadImage("org/vertx/visualvm/applicationtype/vert.x-basic.png", true);
+        return ImageUtilities.loadImage("org/vertx/visualvm/applicationtype/vert.x-16x16.png", true);
     }
 }
